@@ -10,6 +10,7 @@ public class Employee {
 	private Long id;
 	private String code;
 	private String name;
+	private String password;
 	private Role role;
 	private String emailId;
 	private Long mobileNo;
