@@ -1,4 +1,4 @@
- package model;
+package model;
 
 import lombok.Data;
 
@@ -8,31 +8,31 @@ public class TaxDeclaration {
 	private Long id;
 	private Employee employee;
 	private String panNo;
-	private Float houseRent;
-	private String houseOwnerName;	
-	private Float medicalBills;
-	private Float epfvpfContribution;
-	private Float ppf;
-	private Float scss;
-	private Float nsc;
-	private Float taxSavingFD;
-	private Float taxSavingBonds;
-	private Float taxSavingMutualFund;
-	private Float lifeInsurancePremiums;
-	private Float pensionPlan;
-	private Float centralGovtPlan;
-	private Float housingLoan;
-	private Float sukanyaSamriddhiAccount;
-	private Float stampDutyCharges;
-	private Float tuitionFees;
-	private Float additionalDeduction;
-	private Float deductionRgess;
-	private Float medicalInsuranceSelf;
-	private Float medicalInsuranceParents;
-	private Float educationLoan;
-	private Float medicalTreatment;
-	private Float expenditureMedicalTreatment;
-	private Float donationApprovedFunds;
-	private Float physicallyDisabled;
-	
+	private Integer houseRent;
+	private String houseOwnerName;
+	private Integer medicalBills;
+	private Integer epfvpfContribution;
+	private Integer ppf;
+	private Integer scss;
+	private Integer nsc;
+	private Integer taxSavingFD;
+	private Integer taxSavingBonds;
+	private Integer taxSavingMutualFund;
+	private Integer lifeInsurancePremiums;
+	private Integer pensionPlan;
+	private Integer centralGovtPlan;
+	private Integer housingLoan;
+	private Integer sukanyaSamriddhiAccount;
+	private Integer stampDutyCharges;
+	private Integer tuitionFees;
+	private Integer additionalDeduction;
+	private Integer deductionRgess;
+	private Integer medicalInsuranceSelf;
+	private Integer medicalInsuranceParents;
+	private Integer educationLoan;
+	private Integer medicalTreatment;
+	private Integer expenditureMedicalTreatment;
+	private Integer donationApprovedFunds;
+	private Integer physicallyDisabled;
+
 }
