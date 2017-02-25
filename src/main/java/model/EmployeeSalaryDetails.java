@@ -6,7 +6,7 @@ import lombok.Data;
 public class EmployeeSalaryDetails {
 
 	private Long id;
-	private Employee empId;
+	private Employee employee;
 	private Long basicPay;
 	private Long hra;
 	private Long conveyance;
@@ -15,4 +15,11 @@ public class EmployeeSalaryDetails {
 	private Long providentFund;
 	private Long incomeTax;
 
+	public Long getTotalEarnings() {
+		return basicPay + hra + conveyance + specialAllowance + medicalInsurance;
+	}
+
+	public Long getTotalDeductions() {
+		return providentFund + incomeTax;
+	}
 }
